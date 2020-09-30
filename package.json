@@ -1,0 +1,19 @@
+{
+  "name": "school_manager",
+  "version": "1.0.0",
+  "description": "A simple API service for managing the schools, students, staff and academics",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oladotunsobande/school_manager.git"
+  },
+  "author": "Oladotun Sobande <oladutch@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oladotunsobande/school_manager/issues"
+  },
+  "homepage": "https://github.com/oladotunsobande/school_manager#readme"
+}
