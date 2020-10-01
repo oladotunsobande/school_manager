@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get('/', (req, res) => {
-  res.send('Welcome to School Manager V1.0')
+  res.send('Welcome to School Manager API V1.0')
 });
 
 app.get('*', (req, res) => {
@@ -21,9 +21,9 @@ app.get('*', (req, res) => {
 
 app.disable('x-powered-by')
 
-const port = process.env.APP_PORT || 8080;
+const port = process.env.APP_PORT;
 app.listen(port, () => {
-  console.info(`Listening on port: ${port}`);
+  console.info(`School Manager API starting...\nListening on port: ${port}`);
 });
 
 module.exports = app;
